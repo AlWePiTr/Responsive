@@ -553,12 +553,32 @@ body {
 .service{
   display: block;
   flex-wrap: wrap;
+  align-content: center;
+}
+
+.service-img{
+  margin: 0;
 }
 
 .service-img,
 .service-content_inner{
-  display: block;
-  width: 80%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.service-content_inner{
+  position: static;
+}
+
+.company-img,
+.recruit-img{
+  width: 100%;
+}
+
+.footer-logo{
+  width: 100%;
+  margin: 0;
+  text-align: center;
 }
 
 }
